@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background: white/*url('ciberseguridad.jpg') center center / cover no-repeat;*/
+}
+
+#hero {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(180deg, #2c2c30, #10143a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/*#hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}*/
+
+#hero .content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+#hero h1 {
+  font-size: 5rem;
+  margin-bottom:    0.5rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+#hero d {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+#hero .buttons a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#hero .buttons a:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Secciones siguientes */
+section {
+  padding: 4rem 2rem;
+  background: #222;
+  color: #ddd;
+}
+
+section:nth-child(even) {
+  background: #1a1a1a;
+}
+
+.top-right-nav {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 10;
+}
+
+.top-right-nav a {
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: 0.3s;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.top-right-nav a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-links {
+  margin-top: 1.5rem;
+}
+
+.social-links a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.4rem;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #1da1f2; /* Azul claro (puedes cambiarlo por cada red si quieres) */
+}
+
+
+#about {
+    height: 100vh;
+    background: linear-gradient(360deg, #2c2c30, #10143a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: #000;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  gap: 2rem;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.about-text h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #aacbce;
+  font-weight: bold
+}
+
+.about-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-photo img {
+  width: 380px;
+  height: 500px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-left: 40px;
+}
+
+.espacio {
+    margin-bottom: 20px;
+    width: 650px;;
+}
+
+.tecnologias {
+  margin-bottom: 20px;
+  color: #80c3c9;
+  font-weight: bold
+}
+
+.tec {
+   word-spacing: 100px;
+}
+
+.tec2 {
+   word-spacing: 127px;
+}
+
+.tec3 {
+   word-spacing: 99px;
+}
+
+
+#experience {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #2c2c30, #10143a);
+  color: #fff;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-container {
+  max-width: 900px;
+  width: 100%;
+}
+
+#experience h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #aacbce;
+}
+
+.experience-item {
+  background: #1a1c2e;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.experience-item h3 {
+  margin-bottom: 1rem;
+  color: #66fcf1;
+}
+
+.experience-item ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.experience-item a {
+  color: #66fcf1;
+  text-decoration: none;
+}
+
+.experience-item a:hover {
+  text-decoration: underline;
+}
+
+
+
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #10143a, #000000);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 800px;
+}
+
+#contact h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #aacbce
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info i {
+  margin-right: 0.5rem;
+  color: #66fcf1;
+}
+
+.contact-info a {
+  color: #66fcf1;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.cv-button {
+  background-color: #66fcf1;
+  color: #000 !important;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-weight: bold;
+}
+
+.cv-button:hover {
+  background-color: #45c7c0;
+  color: #fff !important;
+}
